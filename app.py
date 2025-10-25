@@ -1304,7 +1304,7 @@ else:
     df['Current Presence'] = pd.Series(dtype='object')
 
 # Streamlit app setup
-st.set_page_config(page_title="Intern Exam Tracker Dashboard", layout="wide")
+st.set_page_config(page_title="Intern Tracker Dashboard", layout="wide")
 st.title("Intern Exam Tracker Dashboard")
 st.markdown("Track intern exam schedules and status updates")
 
@@ -1668,3 +1668,4 @@ st.markdown(
     "</div>",
     unsafe_allow_html=True
 )
+
